@@ -1,0 +1,144 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #ccc !important;
+	padding: 0px 5%;
+	padding-bottom: 50px;
+	justify-content: center;
+	font-family: 'Dongle', sans-serif;
+}
+.title{
+	padding-left: 20px;
+}
+.bgr{
+	background-image:linear-gradient(rgb(39 41 45 / 77%) 100%, rgb(0 0 0)100%), url(img/ac1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 125vh;
+	position: relative;
+}
+.timeline_show{
+	padding: 10px;
+	cursor: pointer;
+	padding-bottom: 0;
+}
+.timeline_show img{
+	width: 100%;
+	border-radius: 0.5;
+	margin: 5px 0;
+}
+.timeline_show1{
+	padding: 10px;
+	padding-bottom: 0;
+}
+.timeline_show1 img{
+	width: 100%;
+	border-radius: 0.5;
+	margin: 5px 0;
+}
+.timeline{
+	margin: 0;
+	padding:0 20px;
+	color: white;
+}
+.year{
+	text-align: center;	
+	border-bottom: 1px solid white
+}
+.timline_high1{
+	position: absolute !important;
+	z-index: 5;
+	background: white;
+	border-radius: 1px;
+	top: 34px;
+	left: 15%;
+	padding: 20px !important;
+	display: none;
+}
+.timline_high2{
+	position: absolute !important;
+	z-index: 5;
+	background: white;
+	border-radius: 1px;
+	top: 34px;
+	left: 37%;
+	padding: 20px !important;
+	display: none;
+}
+.timline_high3{
+	position: absolute !important;
+	z-index: 5;
+	background: white;
+	border-radius: 1px;
+	top: 20%;
+	left: 57%;
+	padding: 20px !important;
+	display: none;
+}
+.timline_high4{
+	position: absolute !important;
+	z-index: 5;
+	background: white;
+	border-radius: 1px;
+	top: 34px;
+	left: 70%;
+	padding: 20px !important;
+	display: none;
+}
+.timline_high5{
+	position: absolute !important;
+	z-index: 5;
+	background: white;
+	border-radius: 1px;
+	top: 34px;
+	left: 56%;
+	padding: 20px !important;
+	display: none;
+}
+.timline_high6{
+	position: absolute !important;
+	z-index: 5;
+	background: white;
+	border-radius: 1px;
+	top: 55%;
+	left: 45%;
+	padding: 20px !important;
+	display: none;
+}
+.timline_high7{
+	position: absolute !important;
+	z-index: 5;
+	background: white;
+	border-radius: 1px;
+	top: 55%;
+	left: 64%;
+	padding: 20px !important;
+	display: none;
+}
+.timline_high8{
+	position: absolute !important;
+	z-index: 5;
+	background: white;
+	border-radius: 1px;
+	top: 50%;
+	left: 45%;
+	padding: 20px !important;
+	display: none;
+}
+.timline_high h6{
+	color: red;
+}
+.timline_high p{
+	padding-left: 5px;
+}
+.document{
+	border-right: 1px solid white;
+}
+i{
+	font-size: 12px;
+}
